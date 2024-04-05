@@ -1,0 +1,363 @@
+body{
+    background-color: rgb(42, 42, 42);
+}
+.div_contenedor{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgb(0, 0, 0) ;
+    opacity: 0.7;
+    width: 100%;
+    height: 10vh;
+}
+
+.infomain{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo{
+    margin-left: 10%;
+    display: flex;
+    width: 35%;
+    height: 10vh;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+.textologo{
+    width: 100%;
+    margin-top: -3%;
+}
+
+.redsocial{
+    margin-top: 1%;
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;    
+}
+
+.busq{
+    width: 20%;
+    height: 3vh;
+    display: flex;
+    margin-top: 1.4%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+.imagenheader{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    height: 100%;
+    width: 100%;
+
+}
+
+section{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.contenedor{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 90vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.santamarta{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 37%;
+    height: 50vh;
+    
+}
+
+.antioquia{
+
+    position: absolute;
+    top: 0%;
+    right: 32.5%;
+    width: 28.5%;
+    height: 37vh;
+
+}
+
+.amazonas{
+
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    width: 28.5%;
+    height: 37vh;
+}
+
+.santander{
+
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 37%;
+    height: 37vh;
+}
+
+.arauca{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+    width: 59%;
+    height: 50vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagensantamarta{
+
+    position: absolute;
+    height: 50vh;
+}
+
+.h3imagenes{
+    padding-left: 8%;
+    color: white;
+}
+
+
+.imagenantioquia{
+    position: absolute;
+    height: 37vh;
+}
+
+.h3antioquia{
+    position: absolute;
+    bottom: 0%;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+
+
+.imagensantander{
+    position: absolute;
+    height: 37vh;
+    width: 100%;
+}
+
+.imagenarauca{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+}
+
+
+.seccion_informacion{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    
+    
+}
+
+.divhr{
+    height: 0.2vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color:#79FF39;
+}
+
+
+.infoizq{
+    width: 70%;
+    overflow:auto;
+    height: 80vh;
+    
+}
+
+
+
+.info1{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fecha{
+    left: 0%;
+    bottom: -10%;
+    position: absolute;
+    font-size: 0.8em;
+
+}
+
+.leer{
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+.divp{
+    left: 0%;
+    top: 0%;
+    font-size: 0.9em;
+    position: absolute;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #526DFF;
+}
+.h3info{
+    margin-top: -0.9%;
+    color: #526DFF;
+    font-size: 1.2em;
+}
+
+.divtextoinfo{
+    width: 55%;
+    position: relative;
+    
+}
+.divimageninfo{
+    width: 40%;
+    position: relative;
+}
+
+.imginfo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.infoder{
+    margin-left: 5%;
+    width: 30%;
+    overflow: auto;
+    height: 70vh;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anuncio1der{
+    margin-bottom: 10%;
+}
+
+.pder{
+    margin-top: -1%;
+    font-size: 14px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.imgcomentario{
+    width: 50%;
+    height: 10vh;
+}
+
+.pcomentario{
+    width: 45%;
+    height: 10vh;
+    margin-top: -6%;
+    font-size: 14px;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divfooter{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 30%;
+    height: 20vh;
+}
+
+h4{
+    font-size: 16px;
+}
+
+.formulario {
+    display: flex;
+    width: 90%; 
+}
+
+.contentinput{
+    width: 80%; 
+    padding: 4%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.boton{
+    padding: 2% 5%;
+    border: 1px solid white;
+    background-color: #393939;
+    color: #fff;
+    font-size: 1em;
+    margin-left: -2%;
+
+}
+
+.imgfooter{
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+    height: 4.5vh;
+    justify-content: space-evenly;
+}
+
+.imglogosfooter{
+    width: 10%;
+
+}
